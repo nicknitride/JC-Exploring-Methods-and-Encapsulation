@@ -84,13 +84,19 @@ public class Main {
 //        System.out.println("Computer 2"+comp2.getComputerDetails());
 //        System.out.println("Computer 3"+comp3.getComputerDetails());
 
-        Thermostat stat = new Thermostat(22.5);
-        System.out.println("Initial temp: " + stat.getTemperatureCelsius());
-        stat.setTemperatureCelsius(5.0); // Try to set an invalid temp
-        System.out.println("Temp after invalid change: " + stat.getTemperatureCelsius());
-        stat.setTemperatureCelsius(25.0); // Set a valid temp
-        System.out.println("Temp after valid change: " + stat.getTemperatureCelsius());
-
+//        Thermostat stat = new Thermostat(22.5);
+//        System.out.println("Initial temp: " + stat.getTemperatureCelsius());
+//        stat.setTemperatureCelsius(5.0); // Try to set an invalid temp
+//        System.out.println("Temp after invalid change: " + stat.getTemperatureCelsius());
+//        stat.setTemperatureCelsius(25.0); // Set a valid temp
+//        System.out.println("Temp after valid change: " + stat.getTemperatureCelsius());
+//        Mini-Challenge (Password)
+        User user1 = new User("tempvalidpass");
+        user1.getPassword();
+        user1.setPassword("invalid");
+        user1.getPassword();
+        user1.setPassword("superlongpasswordtotallypossiblewithapasswordmanager");
+        user1.getPassword();
     }
 
     static void changeStudentName(Student student, String newName) {

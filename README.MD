@@ -88,4 +88,7 @@ Prediction: B
 Outcome: B
 ![img_35.png](img_35.png)
 
-#### Mini-Challenge:
+#### Mini-Challenge (Password):
+![img_36.png](img_36.png)
+![img_37.png](img_37.png)
+![img_38.png](img_38.png)
